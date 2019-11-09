@@ -18,11 +18,11 @@
 
 .cabecalho h1{
 	color: white;
-	font-size: 120px;
+	font-size: 100px;
 	font-family: FonteNome;
 	text-shadow: 3px 3px 8px black;
 	position: block;
-	margin: -140px auto auto auto;
+	margin: -150px auto auto auto;
 	text-align: center;
 }
 
