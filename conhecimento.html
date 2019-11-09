@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Darlan Freire</title>
+	<link rel="icon" type="image/png" href="Imagem/icone.png"/>
+	<link rel="stylesheet" href="styles.css"/>
+	<script src="javascript.js"></script>
+</head>
+
+<body>
+	<header class='cabecalho'>
+		<figure class='imagem'>
+			<img id="eu" src="Imagem/eu.png"/>
+		</figure>
+		<h1>Darlan Freire</h1>
+		<nav class='menu'>
+			<ul>
+				<li onmousemove="mudaImagem('home')" onmouseout="mudaImagem('eu')"><a href="index.html"><b>Home</b></a></li>
+				<li onmousemove="mudaImagem('certificado')" onmouseout="mudaImagem('eu')"><a href="conhecimento.html"><b></b>Conhecimento e certificação</b></a></li>
+				<li onmousemove="mudaImagem('engrenagem')" onmouseout="mudaImagem('eu')"><a href="projeto.html"><b>Projetos acadêmicos</b></a></li> 
+				<li onmousemove="mudaImagem('contato')" onmouseout="mudaImagem('eu')"><a href="contatos.html"><b>contatos</b></a></li>
+			</ul>
+		</nav>
+		
+	</header>
+
+<hgroup>
+	<h2>Formação:</h2>
+	<h3><a href="https://www.unicarioca.edu.br/cursos/graduacao/ciencia-da-computacao" target="_blank">Ciência da Computação - Centro Universitário Carioca (Unicarioca)</a></br>4° Período, Conclusão em Dezembro/2021</h3>
+	<h2>Conhecimentos:</h2>
+	<table id="tabela">
+		<caption><b>Linguagens:</b></caption>
+			<tr><td><img src="Logo/c.png" onclick="certificado('c')"/></a></td><td><b>Linguagem C</b></td></tr>
+			<tr><td><img src="Logo/java.png" onclick="certificado('java')"/></td><td><b><a href="https://www.cursoemvideo.com/wp-content/uploads/2019/02/2426-180330.jpeg" target="_blank">Java</a></b></td></tr>
+			<tr><td><img id="sql" src="Logo/mysql.png" onclick="certificado('mysql')"/></td><td><b><a href="https://www.cursoemvideo.com/certificates/certificado-curso-em-video-2/?c=1091&u=180330" target="_blank">Banco de dados com MySQL</a></b></td></tr>
+			<tr><td><img id="py" src="Logo/python.png" onclick="certificado('python')"/></td><td><b><a href="https://www.cursoemvideo.com/wp-content/uploads/2018/08/7180-180330.jpeg" target="_blank">Python 3</a></b></td></tr>
+			<tr><td><img id="html" src="Logo/html5ecss3.png" onclick="certificado('html')"/></td><td><b><a href="https://www.cursoemvideo.com/wp-content/uploads/2019/11/992-180330.jpeg" target="_blank">HMTL5 + CSS3</a></b></td></tr>
+			<tr><td><img src="Logo/algoritmo.png" onclick="certificado('algoritmo')"/></td><td><b><a href="https://www.cursoemvideo.com/certificates/certificado-curso-em-video-2/?c=973&u=180330" target="_blank">Lógica e Algoritmos</a></b></td></tr>
+			<tr><td><img id="cisco" src="Logo/cisco.png" onclick="certificado('cisco')"/></td><td><b><a href="https://drive.google.com/file/d/1jVX0d2YU-DNTdVV5p2UzNYrA9GS9Il8m/view" target="_blank">Cisco Networking Essentials</a></b></td></tr>
+			<tr><td><img src="Logo/manutencao.png" onclick="certificado('manutencao')"/></td><td><b><a href="https://drive.google.com/file/d/1SuH3zb2zbPCnXQYrSwjszcN-0KWCIN5Q/view" target="_blank">Montagem e Manutenção</a></b></td></tr>
+	</table>
+</hgroup>
+
+	<footer id="rodape"> 
+		<h3>2019 | Desenvolvido por Darlan Freire</h3>
+	</footer>
+
+</body>
+</html>
